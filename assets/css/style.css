@@ -1711,19 +1711,19 @@ body.offcanvas-open {
 }
 @media only screen and (max-width: 575px) {
   .hero-slide-image img {
-    width: 60%;
+    width: 100%;
     margin: auto;
   }
 }
 @media only screen and (max-width: 479px) {
   .hero-slide-image img {
-    width: 60%;
+    width: 100%;
     margin: auto;
   }
 }
 @media only screen and (max-width: 575px) {
   .hero-slide-image {
-    margin-top: 50px;
+    margin-top: -57px;
     text-align: center;
   }
 }
