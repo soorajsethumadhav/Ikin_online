@@ -139,6 +139,7 @@ textarea {
 
 label {
   margin-bottom: 0px;
+  display: block;
 }
 
 .form-control {
@@ -193,6 +194,7 @@ button:focus {
 }
 
 input {
+  width: 100%;
   display: inline-block;
 /*   line-height: 50px;
  */  height: 40px;
@@ -5083,8 +5085,13 @@ body.offcanvas-open {
 .single-feature-content {
   border: 2px solid #e2e2e2;
   border-radius: 15px;
+  position: relative;
   padding: 30px 0;
   margin: -5px;
+}
+.single-feature-content:hover .add-to-cart {
+  -webkit-transform: scale(1);
+  transform: scale(1);
 }
 .single-feature-content .feature-image img {
   max-width: 100%;
@@ -5357,6 +5364,37 @@ span.contact {
           transform: scale(0);
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+}
+button.action.add-to-cart {
+
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 24px;
+    background: #266bf9;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+
 }
 .feature-right-content .content-side {
   width: calc(100% - 270px);
