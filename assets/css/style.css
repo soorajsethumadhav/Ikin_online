@@ -1787,7 +1787,7 @@ body.offcanvas-open {
   }
 }
 .hero-slide-content .title-1 {
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 600;
   margin-bottom: 50px;
   color: #fff;
@@ -5458,7 +5458,7 @@ span.contact {
   display: none;
 }
 .feature-right-content .content-side .prize-content {
-  padding: 20px 0;
+  padding: 10px 0;
   position: relative;
 }
 .feature-right-content .content-side .prize-content::after {
@@ -5511,7 +5511,7 @@ span.contact {
   right: -15px;
 }
 .product-feature {
-  margin-top: 30px;
+  margin-top: 12px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (max-width: 575px) {
   .product-feature {
@@ -10544,10 +10544,9 @@ All Contents
 		font-size: 34px;
 	}
 
-	.features {
-		padding: 100px 0 100px 0;
-	}
-
+  .features {
+    padding: 32px 0;
+}
 	.flex-split {
 		-webkit-flex-direction: row;
 		flex-direction: row;
