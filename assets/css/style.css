@@ -5415,6 +5415,10 @@ span.contact {
     transition: 0.3s ease-in-out;
 
 }
+.bigpreview:hover button.action.add-to-cart{
+  -webkit-transform: scale(1);
+    transform: scale(1);
+}
 .feature-right-content .content-side {
   width: calc(100% - 270px);
   padding-left: 30px;
