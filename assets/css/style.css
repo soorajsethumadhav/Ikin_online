@@ -10833,8 +10833,8 @@ All Contents
   margin-bottom: 20px;
   color: #fff;
 }
-#features .section-title .title ,.section-title p {
-  color: #fff;
+#features .section-title .title, .section-title p {
+  color: #222;
 }
 .features-content {
   text-align: center;
