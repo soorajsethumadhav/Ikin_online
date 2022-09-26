@@ -1763,7 +1763,9 @@ body.offcanvas-open {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-image: url(../images/banner-bg.jpg);
 }
+
 .hero-slide-content {
   position: relative;
   z-index: 9;
@@ -1774,6 +1776,12 @@ body.offcanvas-open {
 @media only screen and (max-width: 575px) {
   .hero-slide-content {
     margin-top: 25px;
+}
+.features {
+  padding: 35px 24px !important;
+}
+.features {
+display: block !important;
 }
 }
 .hero-slide-content .category {
@@ -1787,6 +1795,15 @@ body.offcanvas-open {
   .hero-slide-content .category {
     font-size: 16px;
   }
+  .hero-slide-item{
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/banner/slidermob.png);
+  }
+
 }
 .hero-slide-content .title-1 {
   font-size: 55px;
@@ -1815,6 +1832,8 @@ body.offcanvas-open {
     margin-bottom: 30px;
     line-height: 46px;
   }
+
+
 }
 .hero-slide-content .btn {
   border-width: 2px;
