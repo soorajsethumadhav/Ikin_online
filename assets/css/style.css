@@ -5591,6 +5591,9 @@ button.action.add-to-cart {
   .product-feature ul li {
     font-size: 14px;
   }
+  .product-feature {
+    margin-top: 0;
+}
 }
 .product-feature ul li::after {
   position: absolute;
