@@ -517,5 +517,16 @@
     --------------------- */
     $('.venobox').venobox();
 
+    
+/*-------- Owl Carousel ---------- */
+
+  $(".reviews").owlCarousel({
+
+    slideSpeed : 200,
+    items: 1,
+    singleItem: true,
+    autoPlay : true,
+    pagination : false
+  });
 
 })(jQuery);
