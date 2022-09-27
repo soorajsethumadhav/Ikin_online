@@ -9876,12 +9876,11 @@ All Contents
 
 .flex-split .f-left {
 	flex: 1 0 50%;
-	background: #F9F9F9;
 }
 
 .flex-split .f-right {
 	flex: 1 0 50%;
-	background: url(../images/ios11.jpg) no-repeat center center;
+	background: url(../images/Mobile-unlock-screen.png) no-repeat center center;
 	background-size: cover;
 }
 
@@ -10112,7 +10111,7 @@ All Contents
 .features-text h2 {
 	font-size: 28px;
 	color: #222222;
-	font-weight: 300;
+	font-weight: 600;
 	line-height: 1.2;
 	margin: 0 0 20px 0;
 }
@@ -10444,16 +10443,15 @@ All Contents
 ----------------- Pitch Section Stying Starts ---------------
 -----------------------------------------------------------*/
 
-
 .pitch-2 {
-	width: 100%;
-	background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../images/cta.jpg) no-repeat center center;
-	background-size: cover;
-	padding: 150px 0 150px 0;
+  width: 100%;
+  background: url(../images/Reassure-Banner-Image.png) no-repeat left center;
+  background-size: contain;
+  padding: 150px 0 170px 0;
 }
 
 .pitch-inner {
-	max-width: 500px;
+  /* max-width: 500px; */
   float: right;
 }
 
@@ -10467,9 +10465,10 @@ All Contents
 }
 
 .pitch-inner h1 {
-	font-size: 28px;
-	line-height: 1.2;
-	color: #FFFFFF;
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #454545;
 }
 
 .pitch-inner p {
@@ -10777,14 +10776,14 @@ All Contents
 
 
 .cta-2 {
-	background: #FFFFFF;
+	background: #d0eae7;
 	width: 100%;
 	padding: 100px 0 100px 0;
 }
 
 .cta-2-inner h1 {
 	font-size: 28px;
-	font-weight: 300;
+	font-weight: 600;
 	line-height: 1.4;
 	color: #252525;
 	margin-bottom: 20px;
@@ -10897,8 +10896,9 @@ All Contents
   margin-bottom: 20px;
   color: #fff;
 }
+
 #features .section-title .title, .section-title p {
-  color: #222;
+  color: #333;
 }
 .features-content {
   text-align: center;
@@ -10915,7 +10915,52 @@ All Contents
   font-size: 20px;
   font-weight: 600;
 }
-@media only screen and (max-width: 1024px)
+@media only screen and (max-width: 1024px){
 .features-content {
     padding: 40px 0;
 }
+}
+.features-icon {
+  margin-bottom: 15px;
+}
+.subform input {
+  width: auto;
+}
+.gray-bg{
+  background: #ededed;
+}
+
+@media only screen and (max-width: 767px){
+  
+.features-icon {
+  width: 150px;
+  display: inline-block;
+  background: #ffffff26;
+  justify-content: center;
+  text-align: center;
+  height: 150px;
+  line-height: 150px;
+}
+.features-content {
+ padding: 10px  0;
+}
+.pitch-inner h1 {
+  font-size: 28px;
+}
+.pitch-2 {
+  padding: 47px 0 86px 0;
+}
+.titleblack{
+  color: #fff !important;
+}
+.mobhide {
+  display: none !important;
+}
+.features-content span {
+  display: block;
+  font-weight: 600
+}
+  }
+  .onlymb{
+    display: none;
+  }
