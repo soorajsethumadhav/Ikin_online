@@ -10963,3 +10963,190 @@ All Contents
   .onlymb{
     display: none;
   }
+
+  /*--------------------------------------------------------------
+# Famous Company
+--------------------------------------------------------------*/
+.famous-company {
+  position: relative;
+  display: block;
+  padding: 120px 0 90px;
+  background-color: #faf7f6;
+  z-index: 1;
+}
+
+.famous-company-shape-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.famous-company-shape-1 img {
+  width: auto;
+}
+
+.famous-company__single {
+  position: relative;
+  display: block;
+  border: 2px solid #ede5e5;
+  /* background-color: #f0edea; */
+  padding: 40px 30px 40px;
+  text-align: left;
+  height: 100%;
+}
+
+.famous-company__icon {
+  position: relative;
+  display: block;
+  margin-bottom: 17px;
+}
+
+.famous-company__icon img {
+  width: auto;
+  -webkit-transition: all 500ms linear;
+  transition: all 500ms linear;
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+  -webkit-transform: scale(1) rotateY(0deg);
+  transform: scale(1) rotateY(0deg);
+}
+
+.famous-company__single:hover .famous-company__icon img {
+  -webkit-transform: scale(0.9) rotateY(360deg);
+  transform: scale(0.9) rotateY(360deg);
+}
+
+.famous-company__title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 34px;
+  height: auto;
+}
+
+.famous-company__title a {
+  color: var(--woodza-black);
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.famous-company__single:hover .famous-company__title a {
+  color: var(--woodza-base);
+}
+
+.famous-company__text {
+  color: var(--woodza-black);
+  line-height: 30px;
+  padding-top: 23px;
+  padding-bottom: 30px;
+}
+
+.famous-company__read-more {
+  position: relative;
+  display: block;
+}
+
+.famous-company__read-more a {
+  position: relative;
+  display: flex;
+  text-align: right;
+  justify-content: right;
+}
+
+.famous-company__read-more a i {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  width: 33px;
+  color: var(--woodza-base);
+  font-size: 15px;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  z-index: 1;
+}
+
+.famous-company__single:hover .famous-company__read-more a i {
+  color: var(--woodza-white);
+}
+
+.famous-company__read-more a i:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  background-color: #e5dedc;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  z-index: -1;
+}
+
+.famous-company__single:hover .famous-company__read-more a i:after {
+  background-color: var(--woodza-base);
+}
+
+.famous-company__read-more a i:before {
+  transform: rotate(-45deg);
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.famous-company__single:hover .famous-company__read-more a i:before {
+  transform: rotate(0deg);
+}
+
+.famous-company__read-more a span {
+  font-weight: 500;
+  color: var(--woodza-black);
+  margin-left: 10px;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.famous-company__single:hover .famous-company__read-more a span {
+  color: var(--woodza-base);
+}
+
+.famous-company__shape-1 {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  height: 16px;
+  width: 16px;
+  background-color: var(--woodza-white);
+  -webkit-transition: all 500ms linear;
+  transition: all 500ms linear;
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+.famous-company__single:hover .famous-company__shape-1 {
+  transform: scale(.9);
+}
+
+.famous-company__shape-1:before {
+  position: absolute;
+  content: "";
+  top: -9px;
+  left: -11px;
+  height: 8px;
+  width: 8px;
+  background-color: var(--woodza-base);
+  -webkit-transition: all 500ms linear;
+  transition: all 500ms linear;
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+.famous-company__single:hover .famous-company__shape-1:before {
+  transform: scale(1.2);
+}
+@media only screen and (max-width: 1200px) {
+  .famous-company__single {
+    margin-bottom: 30px;
+    height: auto;
+}
+}
