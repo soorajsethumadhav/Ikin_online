@@ -11155,3 +11155,48 @@ All Contents
     height: auto;
 }
 }
+.image-side :is(img:nth-child(2)) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+  opacity: 0;
+  visibility: hidden;
+}
+.feature-right-content:hover :is(img:nth-child(2)) {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+.image{
+  position: relative;
+}
+.image :is(img:nth-child(2)) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+  opacity: 0;
+  visibility: hidden;
+}
+.bigpreview:hover :is(img:nth-child(2)) {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
