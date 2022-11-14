@@ -1766,23 +1766,23 @@ body.offcanvas-open {
   background-image: url(../images/banner-bg.jpg);
 }
 .padlite{
-  background-image: url(../images/Product_Banner-Padlock_Lite.png);
+  background-image: url(../images/Product_Banner-Padlock_Lite.png) !important;
 }
 .padlockhd{
-  background-image: url(../images/Product_Banner-Padlock_HD.png);
+  background-image: url(../images/Product_Banner-Padlock_HD.png)!important;
 
 }
 .padliteplus{
-  background-image: url(../images/Product_Banner-Padlock_Lite_Plus.png);
+  background-image: url(../images/Product_Banner-Padlock_Lite_Plus.png)!important;
 }
 .doorlockmax{
-  background-image: url(../images/Product_Banner-Max.png);
+  background-image: url(../images/Product_Banner-Max.png)!important;
 }
 .doorlockultra{
-  background-image: url(../images/Product_Banner-Ultra.png);
+  background-image: url(../images/Product_Banner-Ultra.png)!important;
 }
 .doorlockmin{
-  background-image: url(../images/Product_Banner-Mini.png);
+  background-image: url(../images/Product_Banner-Mini.png)!important;
 }
 .hero-slide-content {
   position: relative;
@@ -1794,6 +1794,10 @@ body.offcanvas-open {
 @media only screen and (max-width: 575px) {
   .hero-slide-content {
     margin-top: 25px;
+}
+.padlite,.doorlockmin,.doorlockultra, .doorlockmax,.padliteplus,.padlockhd{
+  background-image: url(../images/Product_Banner-Padlock_HD.png);
+  height: 206px;
 }
 .features {
   padding: 35px 24px !important;
