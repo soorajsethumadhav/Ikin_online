@@ -1765,7 +1765,25 @@ body.offcanvas-open {
   background-repeat: no-repeat;
   background-image: url(../images/banner-bg.jpg);
 }
+.padlite{
+  background-image: url(../images/Product_Banner-Padlock_Lite.png);
+}
+.padlockhd{
+  background-image: url(../images/Product_Banner-Padlock_HD.png);
 
+}
+.padliteplus{
+  background-image: url(../images/Product_Banner-Padlock_Lite_Plus.png);
+}
+.doorlockmax{
+  background-image: url(../images/Product_Banner-Max.png);
+}
+.doorlockultra{
+  background-image: url(../images/Product_Banner-Ultra.png);
+}
+.doorlockmin{
+  background-image: url(../images/Product_Banner-Mini.png);
+}
 .hero-slide-content {
   position: relative;
   z-index: 9;
