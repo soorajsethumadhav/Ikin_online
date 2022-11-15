@@ -816,7 +816,7 @@ header .main-menu ul li.dropdown ul li a {
   padding: 12px 0px 12px 20px;
   font-weight: 400;
   font-size: 14px;
-  color: #2d2d2d;
+  color: #2d2d2d !important;
   text-transform: capitalize;
 }
 header .main-menu ul li.dropdown ul li a:hover {
@@ -1774,6 +1774,12 @@ body.offcanvas-open {
 }
 .padliteplus{
   background-image: url(../images/Product_Banner-Padlock_Lite_Plus.png)!important;
+}
+@media (min-width: 1200px)
+{
+  .dlock .col-xl-2 { 
+  width: 14.28% !important;
+}
 }
 .doorlockmax{
   background-image: url(../images/Product_Banner-Max.png)!important;
@@ -5602,7 +5608,7 @@ span.contact {
 }
 .product-feature ul li {
   font-size: 16px;
-  color: #000000;
+  color: #fff;
   font-weight: 500;
   position: relative;
   padding-left: 15px;
@@ -5627,7 +5633,7 @@ span.contact {
   width: 6px;
   height: 6px;
   content: "";
-  background-color: #149888;
+  background-color: #fff;
   border-radius: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -10644,9 +10650,10 @@ All Contents
 		flex-direction: row;
 	}
 
-	.flex-split .f-left h2 {
-		font-size: 34px;
-	}
+  .flex-split .f-left h2 {
+    font-size: 34px;
+    color: #fff;
+}
 
 	.flex-split .f-left {
 		padding: 80px 100px;
@@ -11221,4 +11228,10 @@ All Contents
   opacity: 1;
   visibility: visible;
   transform: scale(1);
+}
+#promosec {
+background-image: url(../images/Unlock-with-mobile.png);
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
 }
