@@ -5608,7 +5608,7 @@ span.contact {
 }
 .product-feature ul li {
   font-size: 16px;
-  color: #fff;
+  color: #000;
   font-weight: 500;
   position: relative;
   padding-left: 15px;
@@ -5633,7 +5633,7 @@ span.contact {
   width: 6px;
   height: 6px;
   content: "";
-  background-color: #fff;
+  background-color: #000;
   border-radius: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
